@@ -168,7 +168,7 @@ def get_content(data: dict) -> list[dict]:
     # Create a JSON file
     json_data = json.dumps(properties, indent=4)
     
-    with open("data/pam_golding.json", "w") as file:
+    with open("data/pam_golding.json", "w+") as file:
         file.write(json_data)
     
     # Upload file to S3 bucket

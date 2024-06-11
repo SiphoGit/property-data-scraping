@@ -153,7 +153,7 @@ def rawson_scraper(lst: list) -> list[dict]:
     # Create a JSON file
     json_data = json.dumps(properties, indent=4)
     
-    with open("data/raswon.json", "w") as file:
+    with open("data/raswon.json", "w+") as file:
         file.write(json_data)
     
     # Upload file to S3 bucket
