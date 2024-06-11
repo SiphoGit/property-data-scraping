@@ -1,0 +1,3 @@
+python
+boto3
+bs4
