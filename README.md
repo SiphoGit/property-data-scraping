@@ -44,7 +44,7 @@ This project involves scraping property data from two South African property com
 
 ## Architecture
 
-[images\architeture_diagram.png](https://github.com/SiphoGit/property-data-scraping/blob/main/images/architeture_diagram.png))
+![Architecture Diagram](images/architecture_diagram.png)
 
 ## Run Locally
 
