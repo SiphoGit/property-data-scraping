@@ -33,7 +33,6 @@ def rawson_page_url_scraper() -> list[str]:
     # Loop over each for-sale page and get each property's url
     logging.info(f"Scraping Rawson properties property urls...\n") 
     for page in range(1, int(total_pages)+1):
-        logging.info(f"Scraping page {page}") 
         try:
             rawson_for_sale_url = f"https://rawson.co.za/property/for-sale?page={page}"
             page_response = session.get(rawson_for_sale_url, timeout=20)
