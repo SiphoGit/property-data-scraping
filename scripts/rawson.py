@@ -159,6 +159,6 @@ def rawson_scraper(lst: list) -> list[dict]:
     # Upload file to S3 bucket
     file_path = "data/raswon.json"
     key_name = "rawson_properties"    
-    bucket_name = "ss-property-data-scraping"
+    bucket_name = ""
     
     s3_bucket_upload(file_path, bucket_name, key_name)

@@ -48,7 +48,8 @@ def get_property_url(urls: dict) -> dict:
                 page_url = f"{province_url}/page{page_number}"
                 page_response = session.get(page_url, timeout=20)
                 soup = BeautifulSoup(page_response.text, "html.parser")
-
+                
+                # Checks if the the current page has content
                 if not soup.find_all("div", {"class": "page-heading no-results-container notification sorry"}):
                     page_content = soup.find_all('div', {'class': 'pgp-property-image'})
 
@@ -116,6 +117,7 @@ def get_content(data: dict) -> list[dict]:
                     property_features = [feature.get_text(strip=True).replace("\n\r", "") for feature in property_features_element] if property_features_element else []
                 else:
                     property_features = []
+                    
                 merged_features = property_details + property_features
 
                 # Get Outside building details
@@ -174,6 +176,6 @@ def get_content(data: dict) -> list[dict]:
     # Upload file to S3 bucket
     file_path = "data/pam_golding.json"
     key_name = "rawson_properties"    
-    bucket_name = "ss-property-data-scraping"
+    bucket_name = ""
     
     s3_bucket_upload(file_path, bucket_name, key_name)      
