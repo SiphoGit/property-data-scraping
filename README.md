@@ -44,7 +44,7 @@ This project involves scraping property data from two South African property com
 
 ## Architecture
 
-![System Architecture](images\architeture_diagram.png)
+![System Architecture]("images\architeture_diagram.png")
 
 ## Run Locally
 
