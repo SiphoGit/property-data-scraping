@@ -16,6 +16,10 @@ This project involves scraping property data from two South African property com
 - Amazon EventBridge triggers the scraping functions at specified intervals.
 - The scraped data is stored in an S3 bucket as JSON objects and can be explored using Amazon Athena.
 
+## Architecture
+
+![Architecture Diagram](https://github.com/SiphoGit/property-data-scraping/blob/main/images/architeture_diagram.png?raw=true)
+
 ## Pre-requisites
 
 - AWS account
@@ -41,11 +45,6 @@ This project involves scraping property data from two South African property com
     3. SNS
     4. S3 
     5. Athena
-
-## Architecture
-
-![Architecture Diagram](https://github.com/SiphoGit/property-data-scraping/blob/main/images/architeture_diagram.png?raw=true)
-
 
 ## Run Locally
 
