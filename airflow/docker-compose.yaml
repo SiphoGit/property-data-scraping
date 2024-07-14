@@ -77,12 +77,8 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
     - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
-    # - ${AIRFLOW_PROJ_DIR:-.}/data:/opt/airflow/data
     - ${AIRFLOW_PROJ_DIR:-.}:/opt/airflow
-    # - ${AIRFLOW_PROJ_DIR:-.}/scripts:/opt/airflow/scripts
-    # - python_files/data:/opt/airflow/data
-    # - python_files/scripts:/opt/airflow/scripts
-    # - ~/s3-bucket-mount:/opt/airflow/s3-bucket-mount
+    - ~/s3-mount:/opt/airflow/s3-mount
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
