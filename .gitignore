@@ -55,6 +55,12 @@ coverage.xml
 .pytest_cache/
 cover/
 
+# Files 
+webserver_config.py
+*.txt
+*.json
+*.cfg
+
 # Translations
 *.mo
 *.pot
@@ -141,6 +147,9 @@ venv.bak/
 
 # mkdocs documentation
 /site
+/config
+/logs
+/plugins
 
 # mypy
 .mypy_cache/
