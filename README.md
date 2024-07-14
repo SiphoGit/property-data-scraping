@@ -50,7 +50,7 @@ A data pipeline for scraping South African Property data.
 ![Architecture Diagram](https://github.com/SiphoGit/property-data-scraping/blob/main/images/architeture_diagram_2nd.png?raw=true)
 
 ## Dag Graph
-![Architecture Diagram](https://github.com/SiphoGit/property-data-scraping/blob/main/images/dag_diagram.png?raw=true)
+![Architecture Diagram](https://github.com/SiphoGit/property-data-scraping/blob/main/images/dag_graph.png?raw=true)
 
 ## Run Locally
 
