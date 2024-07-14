@@ -48,6 +48,8 @@ A data pipeline for scraping South African Property data.
 ## Architecture
 
 ![Architecture Diagram](https://github.com/SiphoGit/property-data-scraping/blob/main/images/architeture_diagram_2nd.png?raw=true)
+
+## Dag Graph
 ![Architecture Diagram](https://github.com/SiphoGit/property-data-scraping/blob/main/images/dag_diagram.png?raw=true)
 
 ## Run Locally
@@ -62,7 +64,7 @@ Clone the project
 https://github.com/SiphoGit/property-data-scraping .
 ```
 
-Run Docker contaners (You need to be logged into Docker Desktop)
+Run Docker containers (You need to be logged in to Docker Desktop)
 ```bash
 docker-compose build
 ```
