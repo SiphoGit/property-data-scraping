@@ -48,7 +48,7 @@ A data pipeline for scraping South African Property data.
 
 ## Architecture
 
-![Architecture Diagram](https://github.com/SiphoGit/property-data-scraping/blob/main/images/architeture_diagram_2nd.png?raw=true)
+![Architecture Diagram](https://github.com/SiphoGit/property-data-scraping/blob/dev/images/architeture_diagram_2nd.png?raw=true)
 
 ## Run Locally
 
