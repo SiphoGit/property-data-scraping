@@ -18,11 +18,6 @@ A data pipeline for scraping South African Property data.
 - Generate market reports and insights.
 - Monitor competitors' property listings and pricing strategies.
 
-## Architecture
-
-![Architecture Diagram](https://github.com/SiphoGit/property-data-scraping/blob/main/images/architeture_diagram2.png?raw=true)
-![Architecture Diagram](https://github.com/SiphoGit/property-data-scraping/blob/main/images/architeture_diagram2.png?raw=true)
-
 ## Pre-requisites
 
 - [Create](https://www.python.org/downloads/) AWS account
@@ -33,7 +28,7 @@ A data pipeline for scraping South African Property data.
 
 ## Tech Stack
 
-**Developement:** 
+**Development:** 
 - VSCode
 - Python
 - BeautifulSoup
