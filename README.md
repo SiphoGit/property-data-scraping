@@ -4,7 +4,7 @@ A data pipeline for scraping South African Property data.
 
 #### Hosting and Functionality:
 
-- The solution is hosted on AWS within a linux EC2 instance
+- The solution is hosted on AWS within a Linux EC2 instance
 
     1. The data pipeline runs on Apache Airflow, containerized within a Docker container on an Amazon EC2 instance.
     2. A Lambda function triggers the EC2 instance on a schedule (EventBridge) to start the data pipeline.
@@ -12,7 +12,6 @@ A data pipeline for scraping South African Property data.
     4. A notification is sent via Amazon SNS to indicate if the pipeline has failed or succeeded.
 
 #### The data can be used to:
-
 - Identify potential investment opportunities based on property value trends.
 - Predict future property prices and market behavior.
 - Generate market reports and insights.
@@ -20,7 +19,8 @@ A data pipeline for scraping South African Property data.
 
 ## Architecture
 
-![Architecture Diagram](https://github.com/SiphoGit/property-data-scraping/blob/main/images/architeture_diagram.png?raw=true)
+![Architecture Diagram](https://github.com/SiphoGit/property-data-scraping/blob/main/images/architeture_diagram2.png?raw=true)
+![Architecture Diagram](https://github.com/SiphoGit/property-data-scraping/blob/main/images/architeture_diagram2.png?raw=true)
 
 ## Pre-requisites
 
